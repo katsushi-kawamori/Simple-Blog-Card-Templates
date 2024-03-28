@@ -1,0 +1,26 @@
+{
+  "templates": [
+    {
+      "slug": "default",
+      "name": "Default template",
+      "version": "1.01",
+      "author": "Katsushi Kawamori",
+      "author_link": "https://profiles.wordpress.org/katsushi-kawamori/",
+      "files": {
+        "template": "simpleblogcard-template.php",
+        "css": "simpleblogcard.css"
+      }
+    },
+    {
+      "slug": "gridcard",
+      "name": "Grid Card template",
+      "version": "1.0.4",
+      "author": "ishitaka",
+      "author_link": "https://profiles.wordpress.org/ishitaka/",
+      "files": {
+        "template": "simpleblogcard-template-gridcard.php",
+        "css": "simpleblogcard-template-gridcard.css"
+      }
+    }
+  ]
+}
