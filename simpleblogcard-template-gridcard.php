@@ -12,7 +12,7 @@
  *
  * Note: Image size ($imgsize) parameter not support.
  *
- * @version 1.0.4
+ * @version 1.0.5
  *
  * @since 1.0.2
  * @since 1.0.3 Tweaked CSS and split common CSS into file.
