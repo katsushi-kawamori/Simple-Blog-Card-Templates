@@ -5,12 +5,10 @@
  * @package WordPress
  * @subpackage Simple Blog Card
  * @since Simple Blog Card 2.00
- * @version 1.01
+ * @version 1.02
  */
 
 ?>
-
-<?php $hash = md5( $url ); ?>
 
 <style>
 .simpleblogcard_img_block<?php echo esc_html( $hash ); ?> {
@@ -33,39 +31,27 @@
 }
 </style>
 <div class="simpleblogcard_wrap">
-	<?php
-	if ( $settings['target_blank'] ) {
-		?>
+	<?php if ( $settings['target_blank'] ) : ?>
 		<a style="text-decoration: none;" href=<?php echo esc_url( $url ); ?> target="_blank" rel="noopener">
-		<?php
-	} else {
-		?>
+	<?php else : ?>
 		<a style="text-decoration: none;" href=<?php echo esc_url( $url ); ?>>
-		<?php
-	}
-	if ( $img ) {
-		?>
+	<?php endif; ?>
+	<?php if ( $img ) : ?>
 		<figure class="simpleblogcard_img_block<?php echo esc_html( $hash ); ?>">
 			<img style="border-radius: 5px; width: <?php echo esc_attr( $img_width ); ?>px; height: <?php echo esc_attr( $img_height ); ?>px;" src="<?php echo esc_url( $img_url ); ?>" alt="<?php echo esc_attr( $title ); ?>" />
 		</figure>
-		<?php
-	}
-	?>
+	<?php endif; ?>
 	<div class="simpleblogcard_inner">
 		<div class="simpleblogcard_border<?php echo esc_html( $hash ); ?>">
 			<?php echo esc_url( $host ); ?>
 			<div class="simpleblogcard_title<?php echo esc_html( $hash ); ?>">
 				<?php echo esc_html( $title ); ?>
 			</div>
-			<?php
-			if ( $settings['dessize'] > 0 ) {
-				?>
+			<?php if ( $settings['dessize'] > 0 ) : ?>
 				<div class="simpleblogcard_description<?php echo esc_html( $hash ); ?>">
 					<?php echo esc_html( $description ); ?>
 				</div>
-				<?php
-			}
-			?>
+			<?php endif; ?>
 		</div>
 	</div>
 	<div style="clear: both;"></div>
