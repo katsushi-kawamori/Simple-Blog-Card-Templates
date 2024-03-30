@@ -7,7 +7,7 @@ Anyone can pull request your own template. Once approved, it will be included in
 
 The following video shows [Simple Blog Card](https://wordpress.org/plugins/simple-blog-card/) in action. This template is used for output display.
 
-[Video](https://blog.riverforest-wp.info/wordpress/wp-content/uploads/20191113/simple-blog-card-1.mp4)
+https://github.com/katsushi-kawamori/Simple-Blog-Card-Templates/assets/165099245/8f75fdcf-f195-471b-9fbf-9c8bf9579ea4
 
 # Features
 You can freely customize the display of your blog cards via templates.
