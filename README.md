@@ -7,7 +7,7 @@ Anyone can pull request your own template. Once approved, it will be included in
 
 The following video shows [Simple Blog Card](https://wordpress.org/plugins/simple-blog-card/) in action. This template is used for output display.
 
-![](https://blog.riverforest-wp.info/wordpress/wp-content/uploads/20191113/simple-blog-card-1.mp4)
+[Video](https://blog.riverforest-wp.info/wordpress/wp-content/uploads/20191113/simple-blog-card-1.mp4)
 
 # Features
 You can freely customize the display of your blog cards via templates.
@@ -32,26 +32,26 @@ simpleblogcard-template-(template slug name). (php/css)
 
 # Usage
 
-Variable name | Type | Meaning
--------------------------------
-$hash | String | A string of one meaning generated from "URL" and "year, month, date, hour, minute, second". To be added to the end of the class name.
-$settings['img_pos'] | String | OGP image display position: right (right), left (left)
-$settings['border_pos'] | String | Border position: right (right), left (left)
-$settings['color_width'] | Int | Border width
-$settings['color'] | String | Border color
-$settings['t_line_height'] | Int | Line height of the title
-$settings['d_line_height'] | Int | Description line height
-$url | String | Link destination url
-$settings['target_blank'] | bool | open in new tab
-$img | bool | OGP image availability
-$img_url | String | url of the OGP image
-$img_width | Int | OGP image width
-$img_height | Int | OGP image height
-$host | String | url for external host
-$title | String | Title
-$description | String | Description
-$settings['dessize'] | Int | Number of characters for description: integer type
--------------------------------
+| Variable name | Type | Meaning |
+| --- | --- | --- |
+| $hash | String | A string of one meaning generated from "URL" and "year, month, date, hour, minute, second". To be added to the end of the class name. |
+| $settings['img_pos'] | String | OGP image display position: right (right), left (left) |
+| $settings['border_pos'] | String | Border position: right (right), left (left) |
+| $settings['color_width'] | Int | Border width |
+| $settings['color'] | String | Border color |
+| $settings['t_line_height'] | Int | Line height of the title |
+| $settings['d_line_height'] | Int | Description line height |
+| $url | String | Link destination url |
+| $settings['target_blank'] | bool | open in new tab |
+| $img | bool | OGP image availability |
+| $img_url | String | url of the OGP image |
+| $img_width | Int | OGP image width |
+| $img_height | Int | OGP image height |
+| $host | String | url for external host |
+| $title | String | Title |
+| $description | String | Description |
+| $settings['dessize'] | Int | Number of characters for description: integer type |
+
 
 # Author
 
