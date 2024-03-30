@@ -35,14 +35,14 @@ simpleblogcard-template-(template slug name). (php/css)
 | Variable name | Type | Meaning |
 | --- | --- | --- |
 | $hash | String | A string of one meaning generated from "URL" and "year, month, date, hour, minute, second". To be added to the end of the class name. |
-| $settings['img_pos'] | String | OGP image display position: right (right), left (left) |
-| $settings['border_pos'] | String | Border position: right (right), left (left) |
-| $settings['color_width'] | Int | Border width |
-| $settings['color'] | String | Border color |
-| $settings['t_line_height'] | Int | Line height of the title |
-| $settings['d_line_height'] | Int | Description line height |
+| $img_pos | String | OGP image display position: right (right), left (left) |
+| $border_pos | String | Border position: right (right), left (left) |
+| $color_width | Int | Border width |
+| $color | String | Border color |
+| $t_line_height | Int | Line height of the title |
+| $d_line_height | Int | Description line height |
 | $url | String | Link destination url |
-| $settings['target_blank'] | bool | open in new tab |
+| $target_blank | bool | open in new tab |
 | $img | bool | OGP image availability |
 | $img_url | String | url of the OGP image |
 | $img_width | Int | OGP image width |
@@ -50,7 +50,7 @@ simpleblogcard-template-(template slug name). (php/css)
 | $host | String | url for external host |
 | $title | String | Title |
 | $description | String | Description |
-| $settings['dessize'] | Int | Number of characters for description: integer type |
+| $dessize | Int | Number of characters for description: integer type |
 
 
 # Author
