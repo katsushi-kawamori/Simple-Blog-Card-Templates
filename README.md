@@ -32,26 +32,25 @@ simpleblogcard-template-(template slug name). (php/css)
 
 # Usage
 
-| Variable name | Type | Meaning |
-| --- | --- | --- |
-| $hash | String | A string of one meaning generated from "URL" and "year, month, date, hour, minute, second". To be added to the end of the class name. |
-| $img_pos | String | OGP image display position: right (right), left (left) |
-| $border_pos | String | Border position: right (right), left (left) |
-| $color_width | Int | Border width |
-| $color | String | Border color |
-| $t_line_height | Int | Line height of the title |
-| $d_line_height | Int | Description line height |
-| $url | String | Link destination url |
-| $target_blank | bool | open in new tab |
-| $img | bool | OGP image availability |
-| $img_url | String | url of the OGP image |
-| $img_width | Int | OGP image width |
-| $img_height | Int | OGP image height |
-| $host | String | url for external host |
-| $title | String | Title |
-| $description | String | Description |
-| $dessize | Int | Number of characters for description: integer type |
-
+| Variable name | Type | Meaning | Filter |
+| --- | --- | --- | --- |
+| $hash | String | A string of one meaning generated from "URL" and "year, month, date, hour, minute, second". To be added to the end of the class name. |  |
+| $img_pos | String | OGP image display position: right (right), left (left) | simple_blog_card_img_pos |
+| $border_pos | String | Border position: right (right), left (left) | simple_blog_card_border_pos |
+| $color_width | Int | Border width | simple_blog_card_color_width |
+| $color | String | Border color | simple_blog_card_color |
+| $t_line_height | Int | Line height of the title | simple_blog_card_t_line_height |
+| $d_line_height | Int | Description line height | simple_blog_card_d_line_height |
+| $url | String | Link destination url |  |
+| $target_blank | bool | open in new tab | simple_blog_card_target_blank |
+| $img | bool | OGP image availability |  |
+| $img_url | String | url of the OGP image |  |
+| $img_width | Int | OGP image width |  |
+| $img_height | Int | OGP image height |  |
+| $host | String | url for external host |  |
+| $title | String | Title |  |
+| $description | String | Description |  |
+| $dessize | Int | Number of characters for description: integer type | simple_blog_card_dessize |
 
 # Author
 
