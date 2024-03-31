@@ -12,6 +12,43 @@ https://github.com/katsushi-kawamori/Simple-Blog-Card-Templates/assets/165099245
 # Features
 You can freely customize the display of your blog cards via templates.
 Customization is similar to customizing a WordPress theme template.
+You can use the code included here to create template and CSS files and apply them using the two filters below.
+`
+/** ==================================================
+ * Filter for template file.
+ *
+ */
+add_filter(
+    'simple_blog_card_generate_template_file',
+    function () {
+        $wp_uploads = wp_upload_dir();
+        $upload_dir = wp_normalize_path( $wp_uploads['basedir'] );
+        $upload_dir = untrailingslashit( $upload_dir );
+        return $upload_dir . '/tmp/simpleblogcard-template.php';
+    },
+    10,
+    1
+);
+
+/** ==================================================
+ * Filter for CSS file.
+ *
+ */
+add_filter(
+    'simple_blog_card_css_url',
+    function () {
+        $wp_uploads = wp_upload_dir();
+        $upload_url = $wp_uploads['baseurl'];
+        if ( is_ssl() ) {
+            $upload_url = str_replace( 'http:', 'https:', $upload_url );
+        }
+        $upload_url = untrailingslashit( $upload_url );
+        return $upload_url . '/tmp/simpleblogcard.css';
+    },
+    10,
+    1
+);
+`
 
 # Requirement
 
