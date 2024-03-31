@@ -10,9 +10,9 @@ The following video shows [Simple Blog Card](https://wordpress.org/plugins/simpl
 https://github.com/katsushi-kawamori/Simple-Blog-Card-Templates/assets/165099245/8f75fdcf-f195-471b-9fbf-9c8bf9579ea4
 
 # Features
-You can freely customize the display of your blog cards via templates.
-Customization is similar to customizing a WordPress theme template.
-You can use the code included here to create template and CSS files and apply them using the two filters below.
+* You can freely customize the display of your blog cards via templates.
+* Customization is similar to customizing a WordPress theme template.
+* You can use the code included here to create template and CSS files and apply them using the two filters below.
 ```
 /** ==================================================
  * Filter for template file.
