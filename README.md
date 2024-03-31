@@ -1,7 +1,10 @@
 # Simple Blog Card Templates
 
 This template is for the [WordPress](https://wordpress.org/) plugin [Simple Blog Card](https://wordpress.org/plugins/simple-blog-card/).
-Anyone can pull request your own template. Once approved, it will be included in [Simple Blog Card](https://wordpress.org/plugins/simple-blog-card/), users will be able to select your template, and you will become a contributor to [Simple Blog Card](https://wordpress.org/plugins/simple-blog-card/).
+
+Anyone can pull request your own template.
+
+Once approved, it will be included in [Simple Blog Card](https://wordpress.org/plugins/simple-blog-card/), users will be able to select your template, and you will become a contributor to [Simple Blog Card](https://wordpress.org/plugins/simple-blog-card/).
 
 # DEMO
 
