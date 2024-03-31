@@ -45,8 +45,8 @@ simpleblogcard-template-(template slug name). (php/css)
 | $target_blank | bool | open in new tab | simple_blog_card_target_blank |
 | $img | bool | OGP image availability |  |
 | $img_url | String | url of the OGP image |  |
-| $img_width | Int | OGP image width |  |
-| $img_height | Int | OGP image height |  |
+| $img_width | Int | OGP image width | simple_blog_card_img_width |
+| $img_height | Int | OGP image height | simple_blog_card_img_height |
 | $host | String | url for external host |  |
 | $title | String | Title |  |
 | $description | String | Description |  |
