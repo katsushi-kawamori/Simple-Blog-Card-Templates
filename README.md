@@ -13,7 +13,7 @@ https://github.com/katsushi-kawamori/Simple-Blog-Card-Templates/assets/165099245
 You can freely customize the display of your blog cards via templates.
 Customization is similar to customizing a WordPress theme template.
 You can use the code included here to create template and CSS files and apply them using the two filters below.
-`
+```
 /** ==================================================
  * Filter for template file.
  *
@@ -48,7 +48,7 @@ add_filter(
     10,
     1
 );
-`
+```
 
 # Requirement
 
