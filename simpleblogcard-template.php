@@ -5,7 +5,7 @@
  * @package WordPress
  * @subpackage Simple Blog Card
  * @since Simple Blog Card 2.00
- * @version 1.03
+ * @version 1.04
  */
 
 ?>
@@ -43,7 +43,7 @@
 	<?php endif; ?>
 	<div class="simpleblogcard_inner">
 		<div class="simpleblogcard_border<?php echo esc_html( $hash ); ?>">
-			<?php echo esc_url( $host ); ?>
+			<?php echo esc_html( $host ); ?>
 			<div class="simpleblogcard_title<?php echo esc_html( $hash ); ?>">
 				<?php echo esc_html( $title ); ?>
 			</div>
