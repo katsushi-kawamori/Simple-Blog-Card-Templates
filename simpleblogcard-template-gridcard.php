@@ -16,9 +16,10 @@
  * @since 1.0.3 Tweaked CSS. Split common CSS into file.
  * @since 1.0.5 Tweaked CSS.
  * @since 1.1.0 Compliant with Simple Blog Card version 2.10. Supported image size.
+ * @since 1.1.1 Fixed warning for no image. Tweaked CSS.
  */
 ?>
-<?php $image_span = $imgsize <= 100 ? 3 : 4; ?>
+<?php $image_span = ( isset( $imgsize ) && $imgsize ) <= 100 ? 3 : 4; ?>
 <style>
 .simpleblogcard-template-gridcard-<?php echo esc_html( $hash ); ?> .card {
 	border-<?php echo esc_attr( $border_pos ); ?>: solid <?php echo esc_attr( $color_width ); ?>px <?php echo esc_attr( $color ); ?>;
@@ -40,14 +41,14 @@
 </style>
 <div class="simpleblogcard-template-gridcard simpleblogcard-template-gridcard-<?php echo esc_html( $hash ); ?>">
 	<?php if ( $target_blank ) : ?>
-		<a style="text-decoration: none;" href=<?php echo esc_url( $url ); ?> target="_blank" rel="noopener">
+		<a style="text-decoration: none;" href="<?php echo esc_url( $url ); ?>" target="_blank" rel="noopener">
 	<?php else : ?>
-		<a style="text-decoration: none;" href=<?php echo esc_url( $url ); ?>>
+		<a style="text-decoration: none;" href="<?php echo esc_url( $url ); ?>">
 	<?php endif; ?>
 		<div class="card">
 			<?php if ( $img ) : ?>
 				<figure class="card-image">
-					<img src="<?php echo esc_url( $img_url ); ?>" alt="<?php echo esc_attr( $title ); ?>" />
+					<img src="<?php echo esc_url( $img_url ); ?>" alt="<?php echo esc_attr( $title ); ?>" width="<?php echo (int) $img_width; ?>" height="<?php echo (int) $img_height; ?>"/>
 				</figure>
 			<?php endif; ?>
 			<div class="card-content">
