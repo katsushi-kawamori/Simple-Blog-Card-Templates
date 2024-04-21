@@ -3,6 +3,7 @@
     {
       "slug": "default",
       "name": "Default template",
+      "description" : "This is default card.",
       "version": "1.04",
       "author": "Katsushi Kawamori",
       "author_link": "https://profiles.wordpress.org/katsushi-kawamori/",
@@ -14,6 +15,7 @@
     {
       "slug": "gridcard",
       "name": "Grid Card template",
+      "description" : "",
       "version": "1.1.1",
       "author": "ishitaka",
       "author_link": "https://profiles.wordpress.org/ishitaka/",
