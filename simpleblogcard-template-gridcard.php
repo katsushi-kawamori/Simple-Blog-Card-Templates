@@ -10,16 +10,17 @@
 /**
  * Grid Card template for Simple Blog Card plugin.
  *
- * @version 1.1.1
+ * @version 1.1.2
  *
  * @since 1.0.2
  * @since 1.0.3 Tweaked CSS. Split common CSS into file.
  * @since 1.0.5 Tweaked CSS.
  * @since 1.1.0 Compliant with Simple Blog Card version 2.10. Supported image size.
  * @since 1.1.1 Fixed warning for no image. Tweaked CSS.
+ * @since 1.1.2 Supported image size.
  */
 ?>
-<?php $image_span = ( isset( $imgsize ) && $imgsize <= 100 ) ? 3 : 4; ?>
+<?php $image_span = ( isset( $settings['imgsize'] ) && $settings['imgsize'] <= 100 ) ? 3 : 4; ?>
 <style>
 .simpleblogcard-template-gridcard-<?php echo esc_html( $hash ); ?> .card {
 	border-<?php echo esc_attr( $border_pos ); ?>: solid <?php echo esc_attr( $color_width ); ?>px <?php echo esc_attr( $color ); ?>;
